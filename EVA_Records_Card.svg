@@ -1,0 +1,77 @@
+<svg viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+  <defs>
+    <style>
+      .headline{font-family:-apple-system, 'Segoe UI', Arial, sans-serif; font-weight:800;}
+      .label{font-family:-apple-system, 'Segoe UI', Arial, sans-serif; font-weight:700;}
+      .mono{font-family:'Consolas','SF Mono', monospace; font-weight:800;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="850" height="1100" fill="#EEF3F7"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="850" height="150" fill="#0B3D66"/>
+  <text x="60" y="76" class="headline" font-size="46" fill="#FFFFFF">EVA Records</text>
+  <text x="60" y="106" font-size="16" fill="#C7D6E4">The extremes of 106 seasons, 66,118 games — 1917–18 through 2022–23</text>
+  <rect x="0" y="144" width="700" height="6" fill="#1C6DD0"/>
+  <rect x="700" y="144" width="50" height="6" fill="#C8102E"/>
+  <rect x="750" y="144" width="100" height="6" fill="#1C6DD0"/>
+
+  <!-- Record 1: highest season -->
+  <rect x="60" y="182" width="345" height="168" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="84" y="212" class="label" font-size="11" letter-spacing="0.05em" fill="#647082">HIGHEST SEASON EVA+</text>
+  <text x="84" y="266" class="headline" font-size="46" fill="#1C6DD0">+27.3</text>
+  <text x="84" y="296" class="label" font-size="16" fill="#0D1B2A">1973–74 Philadelphia Flyers</text>
+  <text x="84" y="318" font-size="13" fill="#647082">62 wins vs. 55.5 expected</text>
+  <text x="84" y="336" font-size="13" fill="#647082">Stanley Cup champions</text>
+
+  <!-- Record 2: lowest season -->
+  <rect x="445" y="182" width="345" height="168" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="469" y="212" class="label" font-size="11" letter-spacing="0.05em" fill="#647082">LOWEST SEASON EVA+</text>
+  <text x="469" y="266" class="headline" font-size="46" fill="#C8102E">−30.2</text>
+  <text x="469" y="296" class="label" font-size="16" fill="#0D1B2A">1989–90 Quebec Nordiques</text>
+  <text x="469" y="318" font-size="13" fill="#647082">12 wins vs. 28.5 expected</text>
+  <text x="469" y="336" font-size="13" fill="#647082">Recorded as "Colorado Avalanche" — see franchise note</text>
+
+  <!-- Record 3: playoff run -->
+  <rect x="60" y="368" width="345" height="168" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="84" y="398" class="label" font-size="11" letter-spacing="0.05em" fill="#647082">BEST PLAYOFF RUN</text>
+  <text x="84" y="452" class="headline" font-size="46" fill="#1C6DD0">+12.0</text>
+  <text x="84" y="482" class="label" font-size="16" fill="#0D1B2A">1991–92 Pittsburgh Penguins</text>
+  <text x="84" y="504" font-size="13" fill="#647082">Playoff EVA+ over 21 games</text>
+  <text x="84" y="522" font-size="13" fill="#647082">Back-to-back Stanley Cup champions</text>
+
+  <!-- Record 4: modern benchmark -->
+  <rect x="445" y="368" width="345" height="168" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="469" y="398" class="label" font-size="11" letter-spacing="0.05em" fill="#647082">MODERN-ERA BENCHMARK</text>
+  <text x="469" y="452" class="headline" font-size="46" fill="#1C6DD0">+21.6</text>
+  <text x="469" y="482" class="label" font-size="16" fill="#0D1B2A">2022–23 Boston Bruins</text>
+  <text x="469" y="504" font-size="13" fill="#647082">68 wins vs. 57.0 expected</text>
+  <text x="469" y="522" font-size="13" fill="#647082">Also the NHL's all-time 135-point season</text>
+
+  <!-- Franchise section -->
+  <text x="60" y="580" class="label" font-size="14" letter-spacing="0.04em" fill="#0B3D66">CAREER FRANCHISE EXTREMES — MINIMUM 1,000 GAMES</text>
+
+  <rect x="60" y="602" width="730" height="110" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="84" y="632" class="label" font-size="12" fill="#647082">MOST UNDERRATED</text>
+  <text x="84" y="662" class="label" font-size="22" fill="#0D1B2A">Anaheim Ducks</text>
+  <text x="84" y="686" font-size="14" fill="#334252">20th in average Elo · 8th in career EVA+ per game · 29 seasons</text>
+  <circle cx="740" cy="657" r="26" fill="#EAF1F9"/>
+  <text x="740" y="663" class="headline" font-size="17" fill="#1C6DD0" text-anchor="middle">+12</text>
+
+  <rect x="60" y="726" width="730" height="110" rx="4" fill="#FFFFFF" stroke="#DDE4EA"/>
+  <text x="84" y="756" class="label" font-size="12" fill="#647082">MOST OVERRATED</text>
+  <text x="84" y="786" class="label" font-size="22" fill="#0D1B2A">New York Rangers</text>
+  <text x="84" y="810" font-size="14" fill="#334252">9th in average Elo · 19th in career EVA+ per game · 96 seasons</text>
+  <circle cx="740" cy="781" r="26" fill="#FBECEC"/>
+  <text x="740" y="787" class="headline" font-size="17" fill="#C8102E" text-anchor="middle">−10</text>
+
+  <!-- footer note -->
+  <line x1="60" y1="870" x2="790" y2="870" stroke="#DDE4EA" stroke-width="1"/>
+  <text x="60" y="896" font-size="12.5" fill="#647082">Season records: minimum 60 games. Playoff record: minimum 10 playoff games. Franchise gap = Elo rank − EVA+ rank.</text>
+  <text x="60" y="916" font-size="12.5" fill="#647082">See the Case Studies collection for the full write-up behind each record.</text>
+
+  <line x1="60" y1="960" x2="790" y2="960" stroke="#DDE4EA" stroke-width="1"/>
+  <text x="60" y="990" class="label" font-size="12" fill="#0B3D66">EVA v1.0</text>
+  <text x="790" y="990" font-size="12" fill="#647082" text-anchor="end">NHL Elo Odyssey · 1917–2023 · 66,118 games</text>
+</svg>
